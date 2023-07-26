@@ -1025,3 +1025,117 @@ export const FooterNav = [
 		]
 	}
 ]
+
+export const caregorySectionData = [
+	{
+		id: 1,
+		title: "Каталог ножей",
+		item1: "Разделочные",
+		item2: "Туристические",
+		item3: "Охотничьи",
+		image: "img/catalog-cards/01.jpg"
+	},
+	{
+		id: 2,
+		title: "Среднеклинковое оружие",
+		item1: "Разделочные",
+		item2: "Туристические",
+		item3: "Охотничьи",
+		image: "img/catalog-cards/02.jpg"
+	},
+	{
+		id: 3,
+		title: "Длинноклинковое оружие",
+		item1: "Разделочные",
+		item2: "Туристические",
+		item3: "Охотничьи",
+		image: "img/catalog-cards/03.jpg"
+	},
+	{
+		id: 4,
+		title: "Сувенирные изделия",
+		item1: "Разделочные",
+		item2: "Туристические",
+		item3: "Охотничьи",
+		image: "img/catalog-cards/04.jpg"
+	},
+	{
+		id: 5,
+		title: "Сопутствующие товары",
+		item1: "Разделочные",
+		item2: "Туристические",
+		item3: "Охотничьи",
+		image: "img/catalog-cards/05.jpg"
+	},
+	{
+		id: 6,
+		title: "Ножевая мастерская",
+		item1: "Разделочные",
+		item2: "Туристические",
+		item3: "Охотничьи",
+		image: "img/catalog-cards/06.jpg"
+	},
+]
+
+export const coruselData = [
+	{
+		id: 1,
+		title: "Нож Лиса",
+		image: "img/product-card/image.jpg",
+		razmer: "95х18",
+		material: "Орех, Алюминий",
+		rating: "3.6",
+		otzif: "12 отзывов",
+		price: "2 719 р.",
+	},
+	{
+		id: 2,
+		title: "Нож Лиса",
+		image: "img/product-card/image-02.jpg",
+		razmer: "95х18",
+		material: "Орех, Алюминий",
+		rating: "3.6",
+		otzif: "12 отзывов",
+		price: "2 719 р.",
+	},
+	{
+		id: 3,
+		title: "Нож Лиса",
+		image: "img/product-card/image.jpg",
+		razmer: "95х18",
+		material: "Орех, Алюминий",
+		rating: "3.6",
+		otzif: "12 отзывов",
+		price: "2 719 р.",
+	},
+	{
+		id: 4,
+		title: "Нож Лиса",
+		image: "img/product-card/image-02.jpg",
+		razmer: "95х18",
+		material: "Орех, Алюминий",
+		rating: "3.6",
+		otzif: "12 отзывов",
+		price: "2 719 р.",
+	},
+	{
+		id: 5,
+		title: "Нож Лиса",
+		image: "img/product-card/image.jpg",
+		razmer: "95х18",
+		material: "Орех, Алюминий",
+		rating: "3.6",
+		otzif: "12 отзывов",
+		price: "2 719 р.",
+	},
+	{
+		id: 6,
+		title: "Нож Лиса",
+		image: "img/product-card/image-02.jpg",
+		razmer: "95х18",
+		material: "Орех, Алюминий",
+		rating: "3.6",
+		otzif: "12 отзывов",
+		price: "2 719 р.",
+	}
+]

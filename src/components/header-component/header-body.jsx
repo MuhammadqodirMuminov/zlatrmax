@@ -15,7 +15,7 @@ const HeaderBody = ({ setTogglePhone, togglePhone }) => {
 				<div data-da=".catalog-header__container, 479.98" className="body-header__search">
 					<form action="#" className="search-header">
 						<button type="submit" className="search-header__button _icon-search"></button>
-						<input type="text" name="form[]" autoComplete="off" data-error="Ошибка" placeholder="Поиск" className="search-header__input" />
+						<input type="text" name="from[]" autoComplete="off" data-error="Ошибка" placeholder="Поиск" className="search-header__input" />
 					</form>
 				</div>
 

@@ -4,7 +4,7 @@ import { MainCatalog, NededKatalog } from '../../config/constants'
 const HeaderFooter = () => {
 
 	const [catalog, setSatalog] = useState({})
-	const [catalogMenu, setCatelogMenu] = useState(true)
+	const [catalogMenu, setCatelogMenu] = useState(false)
 
 	useEffect(() => {
 		setSatalog(NededKatalog)
@@ -15,7 +15,7 @@ const HeaderFooter = () => {
 		<div className="header__catalog catalog-header">
 			<div className="catalog-header__container">
 				<nav className="catalog-header__menu menu-catalog" >
-
+					<button type="button" className="menu-catalog__back _icon-back">Назад</button>
 					<ul className="menu-catalog__list">
 						{MainCatalog.map(item => (
 							<li className="menu-catalog__item" key={item.id} data-id={item.id} onClick={() => setCatelogMenu(prev => !prev)} >
